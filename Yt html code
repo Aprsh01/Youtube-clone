@@ -1,1 +1,293 @@
-code here
+!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube.com Clone</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+    </head>
+
+    <body>
+        <div class="header" >
+
+            <div class="left-section">
+                <img class="hamburger-menu" src="yt-things/hamburger-menu.svg">
+                <img class="youtube-logo" src="yt-things/youtube-logo.svg">
+            </div>
+
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="yt-things/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="yt-things/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+
+            <div class="right-section">
+
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="yt-things/upload.svg">
+                    <div class="tooltip2">Create</div>
+                </div>
+
+                <div class="youtubeeee-icon-container">
+                    <img class="youtube-apps-icon" src="yt-things/youtube-apps.svg">
+                    <div class="tooltip2">YouTube Apps</div>
+                </div>
+
+                <div class="notifications-icon-container">
+                    <img class="notifications-icon" src="yt-things/notifications.svg">
+                    <div class="notifications-count">3</div>
+                    <div class="tooltip2">Notifications</div>
+                </div>
+
+                <img class="current-user-picture" src="yt-things/unnamed.jpg">
+
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="sidebar-link">
+                <img src="yt-things/side.1.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="yt-things/side.2.svg">
+                <div>Explore</div>
+            </div>
+                <div class="sidebar-link">
+                <img src="yt-things/side.3.svg">
+                <div>Subscriptions</div>
+            </div>
+                <div class="sidebar-link">
+                <img src="yt-things/side.4.svg">
+                <div>Originals</div>
+            </div>
+                <div class="sidebar-link">
+                <img src="yt-things/side.5.svg">
+                <div>YouTube Music</div>
+            </div>
+                <div class="sidebar-link">
+                <img src="yt-things/side.6.svg">
+                <div>Library</div>
+            </div>
+        </div>
+
+
+        <div class="video-grid">
+            <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail1.avif">
+                <div class="video-time">
+                    15:00
+                </div>
+            </div>
+            <div class="video-info-grid">
+            <div class="channel-picture">
+                <img class="profile-picture" src="thumbnails/chnl1.jpg">
+            </div>
+            <div class="video-info">
+                <p class="video-title">
+                    Rahul & Pant Hundreds Set-Up Thriller | Highlights - England v India Day 4 | Rothesay Test 2025
+                </p>
+                <p class="video-author">
+                    England & Wales Cricket Board
+                </p>
+                <p class="video-stats">
+                    30 lakh views &#183; 15 hours ago 
+                </p>
+                </div>
+            </div>
+            </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <div class="video-time">
+                    26:31
+                </div>
+                <img class="thumbnail" src="thumbnails/tb2.avif">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+            <img class="profile-picture" src="thumbnails/gotham.jpg">
+                </div>
+                <div class="video-info">
+            <p class="video-title">
+                30 Brilliant Moves IN A Row
+            </p>
+            <p class="video-author">
+                GothamChess
+            </p>
+            <p class="video-stats">
+                19 lakh views &#183; 2 months ago
+            </p>
+            </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <div class="video-time">
+                    12:42
+                </div>
+                <img class="thumbnail" src="thumbnails/mrb.avif">
+            </div>
+            <div class="video-info-grid">
+            <div class="channel-picture">
+                <img class="profile-picture" src="thumbnails/chnl2.jpg">
+            </div>
+            <div class="video-info">
+                <p class="video-title">
+                    Last Team Standing Wins $250,000
+                </p>
+                <p class="video-author">
+                    MrBeast Gaming
+                </p>
+                <p class="video-stats">
+                    80 lakh views &#183; 1 day ago 
+                </p>
+            </div>
+        </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <div class="video-time">
+                    4:02:43
+                </div>
+                <img class="thumbnail" src="thumbnails/tb5.webp">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+            <img class="profile-picture" src="thumbnails/chnl5.jpg">
+                </div>
+                <div class="video-info">
+            <p class="video-title">
+                HTML & CSS Full Course for free 🌎
+            </p>
+            <p class="video-author">
+                BroCode
+            </p>
+            <p class="video-stats">
+                40 lakh views &#183; 2 years ago
+            </p>
+            </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <div class="video-time">
+                    24:29
+                </div>
+                <img class="thumbnail" src="thumbnails/tb4.webp">
+            </div>
+            <div class="video-info-grid">
+            <div class="channel-picture">
+                <img class="profile-picture" src="thumbnails/channels4_profile.jpg">
+            </div>
+            <div class="video-info">
+                <p class="video-title">
+                    Can ‪@sadisticTushi‬ Beat me at Chess? 
+                </p>
+                <p class="video-author">
+                    ChessWithAkeem
+                </p>
+                <p class="video-stats">
+                    89k views &#183; 1 month ago 
+                </p>
+            </div>
+        </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <div class="video-time">
+                    19:14
+                </div>
+                <img class="thumbnail" src="thumbnails/raina.avif">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+            <img class="profile-picture" src="thumbnails/raina pp.jpg">
+                </div>
+                <div class="video-info">
+            <p class="video-title">
+                Streaming until I do a BRILLIANCY in Chesscom
+            </p>
+            <p class="video-author">
+                Samay Raina
+            </p>
+            <p class="video-stats">
+                3.5 lakh views &#183; Streamed 3 years ago
+            </p>
+            </div>
+            </div>
+        </div>
+
+        
+            <div class="video-preview">
+            <div class="thumbnail-row">
+                <div class="video-time">
+                    19:14
+                </div>
+                <img class="thumbnail" src="thumbnails/new1tb.avif">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="thumbnails/new1.jpg">
+                </div>
+                <div class="video-info">
+            <p class="video-title">
+                GUKESH BEATS MAGNUS AGAIN!!!!!!!
+            </p>
+            <p class="video-author">
+                GothamChess
+            </p>
+            <p class="video-stats">
+                7.3 lakh views &#183; 2 days ago
+            </p>
+            </div>
+            </div>
+        </div>
+
+            <div class="video-preview">
+            <div class="thumbnail-row">
+                <div class="video-time">
+                    7:35
+                </div>
+                <img class="thumbnail" src="thumbnails/new2.tb.avif">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+            <img class="profile-picture" src="thumbnails/new2.jpg">
+                </div>
+                <div class="video-info">
+            <p class="video-title">
+                LOCK IN NOW - Make 2025 the best year of your life
+            </p>
+            <p class="video-author">
+                Tharun Speaks
+            </p>
+            <p class="video-stats">
+                2.2 lakh views &#183; 3 days ago
+            </p>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    </body>
+</html>
